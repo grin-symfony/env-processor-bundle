@@ -46,8 +46,6 @@ class GSEnvProcessorExtension extends ConfigurableExtension implements PrependEx
     {
         $this->loadYaml($container, [
             ['config', 'services.yaml'],
-            ['config/packages', 'translation.yaml'],
-            ['config/packages', 'gs_env_processor.yaml'],
         ]);
     }
 
