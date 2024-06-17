@@ -1,5 +1,5 @@
 {
-    "name": "green-symfony/env-processor-bundle",
+    "name": "grin-symfony/env-processor-bundle",
     "autoload": {
         "psr-4": {
             "GS\\EnvProcessor\\": "src/"
@@ -14,12 +14,12 @@
 			"email":		"son5-29@mail.ru"
         }
     ],
-    "keywords": ["green-symfony", "env-processor-bundle"],
+    "keywords": ["grin-symfony", "env-processor-bundle"],
     "license": "MIT",
     "require": {
         "php": ">=7",
         "symfony/config": ">=6",
-        "green-symfony/service-bundle": ">=1",
+        "grin-symfony/service-bundle": ">=1",
         "symfony/filesystem": ">=6",
         "symfony/dependency-injection": ">=6",
         "symfony/translation": ">=6"
@@ -27,7 +27,7 @@
     "repositories": [
 		{
 			"type": "path",
-			"url": "./bundles/green-symfony/service-bundle"
+			"url": "./bundles/grin-symfony/service-bundle"
 		}
 	]
 }
