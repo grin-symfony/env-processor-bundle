@@ -1,0 +1,33 @@
+{
+    "name": "green-symfony/env-processor-bundle",
+    "autoload": {
+        "psr-4": {
+            "GS\\EnvProcessor\\": "src/"
+        }
+    },
+	"version":		"1.0.0",
+    "type":			"symfony-bundle",
+    "description":	"Env rocessors for extending into Symfony Application.",
+    "authors": [
+        {
+            "name":			"Grigory Koblitsky",
+			"email":		"son5-29@mail.ru"
+        }
+    ],
+    "keywords": ["green-symfony", "env-processor-bundle"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7",
+        "symfony/config": ">=6",
+        "green-symfony/service-bundle": ">=1",
+        "symfony/filesystem": ">=6",
+        "symfony/dependency-injection": ">=6",
+        "symfony/translation": ">=6"
+    },
+    "repositories": [
+		{
+			"type": "path",
+			"url": "./bundles/green-symfony/service-bundle"
+		}
+	]
+}

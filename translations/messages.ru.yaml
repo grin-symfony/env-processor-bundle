@@ -1,0 +1,4 @@
+exception:
+    must_exist: 'Путь "%path%" должен быть существующим!'
+    must_be_absolute: 'Путь "%path%" должен быть абсолютным!'
+    file_must_exist: 'Должен быть существующим путём "%path%" к файлу!'

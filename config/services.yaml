@@ -1,0 +1,9 @@
+parameters:
+
+services:
+    _defaults:
+        public:             false
+        autowire:           false
+        autoconfigure:      false
+
+        bind:
